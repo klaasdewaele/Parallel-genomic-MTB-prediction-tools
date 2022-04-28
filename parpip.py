@@ -81,27 +81,6 @@ drug_gene_dict = {'INH': ['inhA', 'katG', 'ahpC', 'mshA', 'ndh', 'Rv1258c', 'Rv2
                   '?': list(gene_dict.keys())
                   }
 
-# use mykrobe_reg_dict to convert drug abbreviations to capitalized full drug names used in Mykrobe who_regimen.py
-mykrobe_reg_dict = {
-    'INH': 'Isoniazid',
-    'RIF': 'Rifampicin',
-    'PYR': 'Pyrazinamide',
-    'EMB': 'Ethambutol',
-    'KAN': 'Kanamycin',
-    'AMK': 'Amikacin',
-    'CAP': 'Capreomycin',
-    'STR': 'Streptomycin',
-    'OFL': 'Ofloxacin',
-    'CIP': 'Ciprofloxacin',
-    'MOX': 'Moxifloxacin',
-    'BED': 'Bedaquiline',
-    'LIN': 'Linezolid',
-    'CLO': 'Clofazimide',
-    'CYC': 'Cycloserine',
-    'TER': 'Terizidone'
-}
-
-
 
 def find_files(path):
     all_files = os.listdir(path) # List all files in path
