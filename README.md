@@ -1,2 +1,2 @@
 # lagoa
-Serializes popular genomic prediction tools for MTB diagnosis
+Combines popular genomic prediction tools for integrated and comprehensive MTB diagnosis
