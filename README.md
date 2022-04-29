@@ -1,2 +1,2 @@
 # lagoa
-Combines open-source genomic prediction tools for integrated and comprehensive MTB diagnosis
+Combines open-access genomic prediction tools for integrated and comprehensive MTB diagnosis
