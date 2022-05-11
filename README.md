@@ -14,8 +14,8 @@ Additionally, per sample a clinical report is generated starting from a modifiab
 
 ## Installation instructions
 
-Hardware requirements: MTBseq requires at least 20-25 GB of RAM.
-OS requirements: tested on CentOS Linux 7 and Debian 4.19.
+**Hardware requirements**: MTBseq requires at least 20-25 GB of RAM.
+**OS requirements**: tested on CentOS Linux 7 and Debian 4.19.
 
 Install Miniconda: https://docs.conda.io/en/latest/miniconda.html
 
@@ -31,6 +31,8 @@ Install respective tools and ETE3 toolkit using provided .yml files (see yml_fil
 
 For example for Mykrobe:
 `conda env create -f yml_files/mykrobe_env.yml`
+
+`docx-mailmerge` and `fasttree=2.1.10` are installed in the base environment.
 
 MTBseq uses GATK3.8, which requires registering this software separately; see: https://github.com/ngs-fzb/MTBseq_source/blob/master/MANUAL.md
 
