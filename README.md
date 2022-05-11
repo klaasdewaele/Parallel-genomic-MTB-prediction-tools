@@ -8,7 +8,7 @@ We provide a Python script for automatized execution of four popular genomic pre
 
 Tools are executed serially; output of the tools is collated in three .xlsx files: susceptibility, phylogenetic and QC information.
 
-A WHO treatment regimen is assigned to the predicted susceptibility pattern of each tool using who_treatment.py from https://github.com/iqbal-lab-org/tb-amr-benchmarking
+A WHO treatment regimen is assigned to the predicted susceptibility pattern of each tool using `who_treatment.py` from https://github.com/iqbal-lab-org/tb-amr-benchmarking
 
 Additionally, per sample a clinical report is generated starting from a modifiable template.
 
