@@ -27,7 +27,7 @@ Clone the `software` directory to your working directory:
 
 Create the `phylo`folder in your working directory: `mkdir path_to_your_working_dir/phylo`
 
-Install respective tools and ETE3 toolkit using provided .yml files (see yml_files`):
+Install respective tools and ETE3 toolkit using provided .yml files (see `yml_files`):
 
 For example for Mykrobe:
 `conda env create -f yml_files/mykrobe_env.yml`
