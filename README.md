@@ -12,6 +12,8 @@ A WHO treatment regimen is assigned to the predicted susceptibility pattern of e
 
 Additionally, per sample a clinical report is generated starting from a modifiable template (inspired by [Tornheim et al. 2019](https://pubmed.ncbi.nlm.nih.gov/30883637/)). 
 
+![pipeline](https://github.com/klaasdewaele/Parallel-genomic-MTB-prediction-tools/blob/main/flowchart.png)
+
 ## Installation instructions
 
 **Hardware requirements**: MTBseq requires at least 20-25 GB of RAM.
