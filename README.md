@@ -6,7 +6,7 @@ We provide a Python script for automatized execution of four popular genomic pre
 - MTBseq: https://github.com/ngs-fzb/MTBseq_source
 - GenTB: https://github.com/farhat-lab/gentb-snakemake
 
-Tools are executed serially; output of the tools is collated in three .xlsx files containing drug-susceptibility, phylogenetic and QC information.
+Output of the tools is collated in three .xlsx files containing drug-susceptibility, phylogenetic and QC information.
 
 A WHO treatment regimen is assigned to the predicted susceptibility pattern of each tool using `who_treatment.py` from https://github.com/iqbal-lab-org/tb-amr-benchmarking
 
